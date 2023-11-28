@@ -1,0 +1,141 @@
+{
+  "Example1": {
+    "name": "Example1",
+    "hash_map": [
+      {
+        "key": "Item1",
+        "node": {
+          "name": "Item1",
+          "objects": [
+            {
+              "type": "STRING",
+              "content": "Hello World"
+            },
+            {
+              "type": "URL",
+              "content": "https://chat.openai.com/"
+            },
+            {
+              "type": "IMAGE",
+              "content": "https://blog.hootsuite.com/wp-content/uploads/2020/02/Image-copyright.png"
+            },
+            {
+              "type": "DOUBLE",
+              "content": 90.37848
+            }
+          ]
+        }
+      },
+      {
+        "key": "Item2",
+        "node": {
+          "name": "Item2",
+          "objects": [
+            {
+              "type": "URL",
+              "content": "https://chat.openai.com/"
+            },
+            {
+              "type": "IMAGE",
+              "content": "https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png"
+            },
+            {
+              "type": "DOUBLE",
+              "content": 90.37848
+            },
+            {
+              "type": "STRING",
+              "content": "This is my Javaweb coursework"
+            }
+          ]
+        }
+      },
+      {
+        "key": "Item3",
+        "node": {
+          "name": "Item3",
+          "objects": [
+            {
+              "type": "URL",
+              "content": "https://chat.openai.com/"
+            },
+            {
+              "type": "IMAGE",
+              "content": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+            },
+            {
+              "type": "DOUBLYLINKEDHASHTABLE",
+              "content": "Example2"
+            },
+            {
+              "type": "STRING",
+              "content": "Images above are from the internet"
+            }
+          ]
+        }
+      },
+      {
+        "key": "Item4",
+        "node": {
+          "name": "Item4",
+          "objects": [
+            {
+              "type": "STRING",
+              "content": "Hello"
+            },
+            {
+              "type": "DOUBLYLINKEDHASHTABLE",
+              "content": "Example1"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Example2": {
+    "name": "Example2",
+    "hash_map": [
+      {
+        "key": "Item1",
+        "node": {
+          "name": "Item1",
+          "objects": [
+            {
+              "type": "STRING",
+              "content": "Hello world"
+            },
+            {
+              "type": "DOUBLE",
+              "content": 2023.03
+            },
+            {
+              "type": "DOUBLYLINKEDHASHTABLE",
+              "content": "Example1"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Example3": {
+    "name": "Example3",
+    "hash_map": [
+      {
+        "key": "Item1",
+        "node": {
+          "name": "Item1",
+          "objects": [
+            {
+              "type": "STRING",
+              "content": "Hello world"
+            },
+            {
+              "type": "URL",
+              "content": "https://www.google.com"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
